@@ -1,0 +1,8 @@
+# Web UI
+streamlit>=1.35.0,<2.0
+
+# Data processing
+pandas>=2.0.0,<3.0      # DataFrame.to_period, observed= kwarg (groupby)
+
+# Visualisation
+plotly>=5.20.0,<6.0     # px.imshow text_auto, qualitative.Safe palette
